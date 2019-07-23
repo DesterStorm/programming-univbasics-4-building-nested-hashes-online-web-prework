@@ -3,6 +3,7 @@ def monopoly
 end
 
 def monopoly_with_second_tier
+<<<<<<< HEAD
 monopoly = {
   :railroads => {
     :pieces => 4, 
@@ -10,6 +11,10 @@ monopoly = {
     :rent_in_dollars => {}
   }
 }
+=======
+monopoly = {:railroads => {:pieces => 4}, :names => {} }
+
+>>>>>>> f6535f01b001b5b0736ccd3aa95040595e606b18
 end
 
 def monopoly_with_third_tier
